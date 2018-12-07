@@ -1,0 +1,5 @@
+空调主板,8543709990,air conditioner pcb.
+空调遥控器,8543709990,air conditioner remote.
+空调温度计,9025800000000,air conditioner thermostat.
+空调显示器,8415901000,air conditioner display .
+空调传感器,9025800000000,air conditioner sensor.

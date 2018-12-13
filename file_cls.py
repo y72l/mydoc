@@ -46,3 +46,7 @@ class file_cls:
                        d=r
                        break
              return d
+       def write(self,filename,s):
+             fo = open(self.path+filename, "w")
+             fo.write('\xEF\xBB\xBF'+s)
+             fo.close()

@@ -50,3 +50,7 @@ class file_cls:
              fo = open(self.path+filename, "w")
              fo.write('\xEF\xBB\xBF'+s)
              fo.close()
+       def add(self,filename,s):
+             fo = open(self.path+filename, "a")
+             fo.write("\n"+s)
+             fo.close() 

@@ -14,7 +14,7 @@ class dir_cls:
                  if len(arr)==2:
                       if s=="*":
                          L.append(k)
-                      if arr[1]==s:
+                      if arr[1].lower()==s.lower():
                          L.append(k)
              return L
        def dir(self,path):
